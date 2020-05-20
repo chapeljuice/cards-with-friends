@@ -1,0 +1,44 @@
+{
+  "hands": [
+    {
+      "hand": "high card",
+      "value": 1
+    },
+    {
+      "hand": "pair",
+      "value": 2
+    },
+    {
+      "hand": "two pairs",
+      "value": 3
+    },
+    {
+      "hand": "three of a kind",
+      "value": 4
+    },
+    {
+      "hand": "straight",
+      "value": 5
+    },
+    {
+      "hand": "flush",
+      "value": 6
+    },
+    {
+      "hand": "full house",
+      "value": 7
+    },
+    {
+      "hand": "four of a kind",
+      "value": 8
+    },
+    {
+      "hand": "straight flush",
+      "value": 9
+    },
+    {
+      "hand": "royal flush",
+      "value": 10
+    }
+  ]
+}

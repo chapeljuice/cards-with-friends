@@ -1,0 +1,332 @@
+{
+  "cards": {
+    "deck": [
+      {
+        "deck-id": 1,
+        "suit-id": 1,
+        "pip": "Ace",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 2,
+        "suit-id": 2,
+        "pip": "2",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 3,
+        "suit-id": 3,
+        "pip": "3",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 4,
+        "suit-id": 4,
+        "pip": "4",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 5,
+        "suit-id": 5,
+        "pip": "5",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 6,
+        "suit-id": 6,
+        "pip": "6",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 7,
+        "suit-id": 7,
+        "pip": "7",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 8,
+        "suit-id": 8,
+        "pip": "8",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 9,
+        "suit-id": 9,
+        "pip": "9",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 10,
+        "suit-id": 10,
+        "pip": "10",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 11,
+        "suit-id": 11,
+        "pip": "Jack",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 12,
+        "suit-id": 12,
+        "pip": "Queen",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 13,
+        "suit-id": 13,
+        "pip": "King",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 14,
+        "suit-id": 1,
+        "pip": "Ace",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 15,
+        "suit-id": 2,
+        "pip": "2",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 16,
+        "suit-id": 3,
+        "pip": "3",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 17,
+        "suit-id": 4,
+        "pip": "4",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 18,
+        "suit-id": 5,
+        "pip": "5",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 19,
+        "suit-id": 6,
+        "pip": "6",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 20,
+        "suit-id": 7,
+        "pip": "7",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 21,
+        "suit-id": 8,
+        "pip": "8",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 22,
+        "suit-id": 9,
+        "pip": "9",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 23,
+        "suit-id": 10,
+        "pip": "10",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 24,
+        "suit-id": 11,
+        "pip": "Jack",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 25,
+        "suit-id": 12,
+        "pip": "Queen",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 26,
+        "suit-id": 13,
+        "pip": "King",
+        "suit": "hearts"
+      },
+      {
+        "deck-id": 27,
+        "suit-id": 1,
+        "pip": "Ace",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 28,
+        "suit-id": 2,
+        "pip": "2",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 29,
+        "suit-id": 3,
+        "pip": "3",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 30,
+        "suit-id": 4,
+        "pip": "4",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 31,
+        "suit-id": 5,
+        "pip": "5",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 32,
+        "suit-id": 6,
+        "pip": "6",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 33,
+        "suit-id": 7,
+        "pip": "7",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 34,
+        "suit-id": 8,
+        "pip": "8",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 35,
+        "suit-id": 9,
+        "pip": "9",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 36,
+        "suit-id": 10,
+        "pip": "10",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 37,
+        "suit-id": 11,
+        "pip": "Jack",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 38,
+        "suit-id": 12,
+        "pip": "Queen",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 39,
+        "suit-id": 13,
+        "pip": "King",
+        "suit": "diamonds"
+      },
+      {
+        "deck-id": 40,
+        "suit-id": 1,
+        "pip": "Ace",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 41,
+        "suit-id": 2,
+        "pip": "2",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 42,
+        "suit-id": 3,
+        "pip": "3",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 43,
+        "suit-id": 4,
+        "pip": "4",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 44,
+        "suit-id": 5,
+        "pip": "5",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 45,
+        "suit-id": 6,
+        "pip": "6",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 46,
+        "suit-id": 7,
+        "pip": "7",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 47,
+        "suit-id": 8,
+        "pip": "8",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 48,
+        "suit-id": 9,
+        "pip": "9",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 49,
+        "suit-id": 10,
+        "pip": "10",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 50,
+        "suit-id": 11,
+        "pip": "Jack",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 51,
+        "suit-id": 12,
+        "pip": "Queen",
+        "suit": "clubs"
+      },
+      {
+        "deck-id": 52,
+        "suit-id": 13,
+        "pip": "King",
+        "suit": "clubs"
+      }
+    ],
+    "other": [
+      {
+        "deck-id": 53,
+        "suit-id": 1,
+        "pip": "Joker",
+        "suit": "spades"
+      },
+      {
+        "deck-id": 54,
+        "suit-id": 1,
+        "pip": "Joker",
+        "suit": "diamonds"
+      }
+    ]
+  }
+}

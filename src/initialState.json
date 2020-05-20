@@ -1,0 +1,20 @@
+{
+  "game": "No-Limit Texas Hold 'em",
+  "active_player": 0,
+  "best_current_player": -1,
+  "best_current_hand": -1,
+  "community_cards": [],
+  "players": [
+    {
+      "cards": [],
+      "big_blind": false,
+      "small_blind": false,
+      "current_bet": 0,
+      "bet_this_hand": 0,
+      "dealer_button": true
+    }
+  ],
+  "pot-size": 0,
+  "loading": false,
+  "errors": []
+}
