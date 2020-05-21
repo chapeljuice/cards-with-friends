@@ -17,3 +17,10 @@ export const addPlayer = () => dispatch => {
     type: 'REMOVE_PLAYER'
   })
  };
+
+ export const startGame = () => dispatch => {
+  dispatch({
+    type: 'START_GAME',
+    payload: true
+  })
+ };

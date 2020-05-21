@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addPlayer, removePlayer } from './action-creators/actions';
+import { startGame } from './action-creators/actions';
+import StartGame from './components/StartGame';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       bestCurrentPlayer: -1,
       bestCurrentHand: -1,
       communityCards: [],
+      gameStarted: false,
       players: [
         {
           cards: [],
@@ -30,32 +32,14 @@ class App extends Component {
   static getDerivedStateFromProps = ( props, state ) => {
     return {
       ...state,
-      players: props.players
+      gameStarted: props.gameStarted
     }  
   }
 
-  // startGame = (event) => {
-  //   this.props.startGame();
-  // }
-
-  fewerPlayers = () => {
-    const { players } = this.state;
-    const numberOfPlayers = players.length;
-    if ( numberOfPlayers > 1 ) {
-      this.props.removePlayer();
-    }
-  }
-
-  morePlayers = () => {
-    this.props.addPlayer();
-  }
-
   render () {
-    const { players } = this.state;
+    const { players, gameStarted } = this.state;
     const numberOfPlayers = players.length;
-
-
-    console.log('main state: ', this.state)
+    const gameDisplay = gameStarted ? <div>Game started</div> : <StartGame numberOfPlayers={ numberOfPlayers } />;
 
     return (
       <div className="App">
@@ -63,11 +47,7 @@ class App extends Component {
           <p>
             Cards with friends!
           </p>
-          <div className="player-count">
-            <div><button onClick={this.fewerPlayers}>-</button><span>{ numberOfPlayers }</span><button onClick={this.morePlayers}>+</button></div>
-            <p>{ numberOfPlayers > 1 ? 'Players' : 'Player' }</p>
-          </div>
-          <button onClick={this.startGame}>Play!</button>
+          { gameDisplay }
         </header>
       </div>
     );
@@ -75,15 +55,14 @@ class App extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log( 'mapStateToProps state: ', state );
   return {
-   players: state.playerReducer.players
+    gameStarted: state.gameReducer.gameStarted,
+    players: state.playerReducer.players
   };
 };
 
  const mapDispatchToProps = dispatch => ({
-  addPlayer: () => dispatch( addPlayer() ),
-  removePlayer: () => dispatch( removePlayer() )
+  startGame: () => dispatch( startGame() )
 });
 
 export default connect( mapStateToProps, mapDispatchToProps )(App);
